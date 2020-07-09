@@ -76,7 +76,7 @@ body{
   color: white;
   top: 70%;
   left: 18%;
-  transform: translate(-50%, -50%);
+  transform: rotate(y);
   font-size: 20px;
   font-weight: 30px;
   margin-bottom: 14px;
@@ -212,4 +212,11 @@ td.second {
   height: 40px;
   display: block;
   float: right;
+  transform: rotate(45deg);
+}
+
+.images:hover{
+
+transform: rotate(90deg);
+
 }
